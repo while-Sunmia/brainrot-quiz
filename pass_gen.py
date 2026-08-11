@@ -28,7 +28,7 @@ lim = st.text_input("What is the length of ur alphanumeric password ?")
 limit = int(lim)
 if st.button("Generate!"):
   for i in range(limit):
-    gen = random.choice(string.ascii_letters + string.digits)
+    gen = random.choice(string.ascii_letters + string.digits + '$' + '&' + '!' + '@')
     char.append(gen)
 
   word = "".join(char)
