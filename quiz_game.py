@@ -90,6 +90,22 @@ def game():
 
 
 yes_no = st.radio("Choose an option:",["Yes", "No"])
+
+st.markdown(
+    """
+    <style>
+    h1{color: black;text-align: center;font-size:100px;}
+    h3{color: black;text-align: center;}
+    .stApp{
+        background-color: pink;
+        }
+    p{color: black;font-size:18px;}
+    .stButton{color: red;}
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
 if yes_no== "Yes":
     game()
 else:
