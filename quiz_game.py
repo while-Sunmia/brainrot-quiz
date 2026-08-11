@@ -95,7 +95,7 @@ st.markdown(
     """
     <style>
 h1,h2,h3,h4,h5,h6 {
-  background-color: black;
+  color: black;
   text-align: center;
   font-size: 100px;
   font-style: sans-serif;
