@@ -94,13 +94,13 @@ yes_no = st.radio("Choose an option:",["Yes", "No"])
 st.markdown(
     """
     <style>
-    h1,h2{color: black;text-align: center;font-size: 100px;font-style: sans-serif}
-    h3{color: black;text-align: center}
+    h1,h2{backgroundcolor: black;text-align: center;font-size: 100px;font-style: sans-serif}
+    h3{backgroundcolor: black;text-align: center}
     .stApp{
-        background-color:blue;
+        background-color: blue;
         }
     p{color: black;font-size: 18px;}
-    .stButton{color: red;}
+    .stButton{color: ;}
     </style>
     """,
     unsafe_allow_html=True
