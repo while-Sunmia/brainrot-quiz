@@ -97,7 +97,7 @@ st.markdown(
     h1,h2{color: black;text-align: center;font-size:100px;font-style: serif}
     h3{color: black;text-align: center;}
     .stApp{
-        background-color: pink;
+        background-color: blue;
         }
     p{color: black;font-size:18px;}
     .stButton{color: red;}
