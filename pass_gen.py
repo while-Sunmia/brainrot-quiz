@@ -24,7 +24,7 @@ st.markdown(
 st.title("PASSWORD GENERATOR")
 st.write("This is an app that generates a strong password for your internet purposes:")
 char = []
-lim = st.text_input("What is the length of ur alphanumeric password ?")
+lim = st.text_input("What is the length of the password that needs to be generated ?")
 limit = int(lim)
 if st.button("Generate!"):
   for i in range(limit):
