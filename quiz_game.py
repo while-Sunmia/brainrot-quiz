@@ -101,7 +101,7 @@ h1,h2,h3,h4,h5,h6 {
   font-style: sans-serif;
 }
 .stApp {
-  background-color: blue;
+  background-color: blue !important;
 }
 p {
   color: white;
